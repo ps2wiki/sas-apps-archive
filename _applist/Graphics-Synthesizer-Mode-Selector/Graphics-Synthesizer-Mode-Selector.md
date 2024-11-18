@@ -1,6 +1,6 @@
 ---
 title: Graphics Synthesizer Mode Selector (GSM)
-subtitle: GSM makes on-the-fly conversion from original graphic modes of a PS2 software to the ones the user forces
+subtitle: GSM converts the original graphic mode of a PS2 software to the ones the user forces on-the-fly
 description: More about GSM
 developer: doctorxyz, dlanor, sp193 & reprep
 hide_hero: true
