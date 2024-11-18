@@ -2,6 +2,7 @@
 title: Argon
 subtitle: SMS-based player with XMB GUI
 description: Argon
+developer: argonps2
 hide_hero: true
 app_code: APPLIST003
 layout: applist
@@ -14,7 +15,6 @@ features:
       icon: fa-file-upload
     - label: Fairly popular
       icon: fa-chart-line
-rating: 
 download: app.filen.io/#/d/6e48444b-23b9-4610-b958-546598a3b9f4#uFjJP5hPgAyYpCRG4fBgpfWlm8XDh5Ao
 ---
 
@@ -30,6 +30,6 @@ Controls:
 - SELECT - back to top
 
 Official Site:
-- http://sourceforge.net/projects/argon-ps2/.
+- [http://sourceforge.net/projects/argon-ps2/](http://sourceforge.net/projects/argon-ps2/).
 Source code:
-- http://sourceforge.net/p/argon-ps2/code/HEAD/tree/.
+- [http://sourceforge.net/p/argon-ps2/code/HEAD/tree/](http://sourceforge.net/p/argon-ps2/code/HEAD/tree/).
