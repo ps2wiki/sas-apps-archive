@@ -11,13 +11,14 @@ layout: default
     <div class="column is-6">
         <p class="title is-3">{{ page.title }}</p>
         <p class="subtitle is-3">{{ page.subtitle }}</p></br>
-        <p class="title is-5 has-text-left">{{ page.version }}</p>
+        <p class="title is-5 has-text-left">by {{ page.developer }}</p>
+        <p class="title is-5 has-text-left">Version: {{ page.version }}</p>
        <!-- {% if page.app_code %}
             <p class="subtitle is-5 has-text-right">{{ page.app_code }}</p>
-        {% endif %} -->
+        {% endif %} 
         {% if page.rating %}
             {% include rating.html rating=page.rating %}
-        {% endif %}
+        {% endif %} -->
     </br>
         {% if page.features %}
             <div class="content">
