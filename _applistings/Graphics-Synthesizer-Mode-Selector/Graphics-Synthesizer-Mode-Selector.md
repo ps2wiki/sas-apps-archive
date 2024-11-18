@@ -16,6 +16,7 @@ features:
     - label: Highly popular
       icon: fa-chart-line
 download: app.filen.io/#/d/59fa289c-1e58-456d-8484-455368db7c7d#EKCJFSTxwhuNZXnCqa1AN97kiashcDhW
+rating: 5
 ---
 
 GSM intends to make on-the-fly conversion from the original graphic mode of PS2 game (or application) choosen by user, to the ones he/she wants to force.
