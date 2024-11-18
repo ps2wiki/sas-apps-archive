@@ -2,6 +2,17 @@
 layout: default
 show_sidebar: false
 ---
+
+<script>
+function download_link() {
+    var bits = ["https://"];
+    bits.push("{{ applist.download }}");
+    var url = bits.join("");
+    document.getElementById("dllink").setAttribute("href",url);
+    }
+    download_link();
+</script>
+
 <div class="columns is-multiline">
     <div class="column is-12">
         {{ page.content }}
@@ -28,15 +39,6 @@ show_sidebar: false
                         <p class="title is-4">{{ applist.title }}</p>
                         <p class="subtitle is-4">{{ applist.subtitle }}</p></br>
                         <div style="float: left"><p> {% if applist.download %}
-                            <script>
-                                function download_link() {
-                                  var bits = ["https://"];
-                                  bits.push("{{ applist.download }}");
-                                  var url = bits.join("");
-                                  document.getElementById("dllink").setAttribute("href",url);
-                                }
-                                download_link();
-                            </script>
                             <a id="dllink" href="#" class="download_btn" onclick="download_link();return true;"><i style="color: wheat" class="fas fa-download"></i> Download</a>
                             {% endif %} </p></div>
                         <div style="float: right"><p class="title is-5 has-text-right">{{ applist.version }}</p></div></br></br>
