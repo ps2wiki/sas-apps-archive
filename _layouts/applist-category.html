@@ -30,7 +30,7 @@ show_sidebar: false
                         <div style="float: left"><p> {% if applist.download %}
                             <script>
                                 function download_link_list() {
-                                  var url = {{ page.download }};
+                                  var url = "{{ page.download }}";
                                   document.getElementById("dllink").setAttribute("href",url);
                                 }
                                 download_link_list();
