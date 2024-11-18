@@ -29,6 +29,6 @@ Controls:
 - SELECT - back to top
 
 Official Site:
-- [http://sourceforge.net/projects/argon-ps2/](http://sourceforge.net/projects/argon-ps2/).  
+- [http://sourceforge.net/projects/argon-ps2/](http://sourceforge.net/projects/argon-ps2/)
 Source code:
-- [http://sourceforge.net/p/argon-ps2/code/HEAD/tree/](http://sourceforge.net/p/argon-ps2/code/HEAD/tree/).
+- [http://sourceforge.net/p/argon-ps2/code/HEAD/tree/](http://sourceforge.net/p/argon-ps2/code/HEAD/tree/)
