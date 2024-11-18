@@ -7,7 +7,7 @@ hide_hero: true
 app_code: APPLIST001
 layout: applist
 image: https://rggames.com.br/wp-content/uploads/2024/06/opl.jpg
-version: v1.2.0-Beta-2173
+version: v1.2.0b-2173
 features:
     - label: Compatible across all models
       icon: fa-user-check
@@ -15,7 +15,6 @@ features:
       icon: fa-file-upload
     - label: Highly popular
       icon: fa-chart-line
-rating: 5
 download: app.filen.io/#/f/979a8ea4-5556-4d55-bee8-c9329c463db6#sUFLyL85q45reUqcrrazZWktYK0pHjk6
 ---
 
