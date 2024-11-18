@@ -1,0 +1,71 @@
+---
+layout: default
+---
+<div class="columns is-multiline">
+    <div class="column is-6">
+        <figure class="image is-4by3">
+            <img style="border-style: solid; border-color: wheat; border-width: 2px; border-radius: 10px" src="{{ page.image }}">
+        </figure>
+    </div>
+
+    <div class="column is-6">
+        <p class="title is-3">{{ page.title }}</p>
+        <p class="subtitle is-3">{{ page.subtitle }}</p></br>
+        <p class="title is-5 has-text-left">{{ page.version }}</p>
+       <!-- {% if page.app_code %}
+            <p class="subtitle is-5 has-text-right">{{ page.app_code }}</p>
+        {% endif %} -->
+        {% if page.rating %}
+            {% include rating.html rating=page.rating %}
+        {% endif %}
+    </br>
+        {% if page.features %}
+            <div class="content">
+                {% for feature in page.features %}
+                    <p>
+                        <span class="icon">
+                            {% if feature.icon %}
+                                <i class="fas {{ feature.icon }}"></i>
+                            {% else %}
+                                <i class="fas fa-circle fa-xs"></i>
+                            {% endif %}
+                        </span>
+                        <span>{{ feature.label }}</span>
+                    </p>
+                {% endfor %}
+                </br>
+
+                {% if page.download %}
+<script>
+    function download_link() {
+      var bits = ["https://"];
+      bits.push("{{ page.download }}");
+      var url = bits.join("");
+      document.getElementById("dllink").setAttribute("href",url);
+    }
+    download_link();
+</script>
+<a id="dllink" href="https://" class="download_btn" onclick="download_link();return true;"><i style="color: wheat" class="fas fa-download"></i> Download</a>
+                {% endif %}
+            </div>
+        {% endif %}
+    </div>
+<div style="padding: 10px"><div style="border-radius: 10px; padding: 10px; border: 2px outset #ffffff" class="app_desc">
+    <div style="font-weight: bold" class="column is-12">
+    </br>
+        <p class="title is-4">Description</p>
+    </br>
+        <div class="content">
+            {{ content }}
+        </div>
+    </div>
+</div></div>
+    {% if site.data.reviews[page.app_code] %}
+        <div class="column is-12">
+            <p class="title is-4">Reviews</p>
+            {% for review in site.data.reviews[page.app_code] %}
+                {% include review.html %}
+            {% endfor %}
+        </div>
+    {% endif %}
+</div>

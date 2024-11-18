@@ -1,0 +1,85 @@
+# Site Settings
+lang: en
+title: SAS Apps Archive
+tagline: The one place to download all PS2 Apps
+email: --
+description: >
+   
+baseurl: "/sas-apps-archive"
+url: "koraxial.github.io"
+permalink: pretty
+#favicon: /path/to/favicon.png
+hide_share_buttons: true
+#theme_color: '#eeeeee'
+#fixed_navbar: top
+#direction: one of <ltr, rtl, auto>, default: ltr
+force_theme: dark
+
+paginate: 5
+paginate_path: "/blog/page:num"
+
+# Disqus Comments
+disqus:
+  # Leave shortname blank to disable comments site-wide.
+  # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
+  # shortname: my_disqus_shortname
+  shortname: 
+
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-seo-tag
+  - kramdown-parser-gfm
+  - jekyll-redirect-from
+
+exclude: 
+  - Gemfile
+  - clean-theme.gemspec
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+livereload: true
+
+sass:
+  style: compressed
+  source_dir: _sass
+  # load_paths: 
+    # - node_modules
+
+#google_analytics: UA-code-here
+cookie_policy: 
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      show_sidebar: false
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      author: "The PS2Wiki Team"
+      layout: post
+      image: https://via.placeholder.com/1200x800
+      show_sidebar: false
+
+markdown: kramdown
+highlighter: rouge
+
+footer_menu: example_footer_menu
+
+collections:
+  applist: 
+    output: true
+    layout: applist
+    image: https://preview.redd.it/vsprmxbhzaj81.png?auto=webp&s=f44361fa1cc8085a51394eeddcb72c52e4f98a05
+    show_sidebar: false
