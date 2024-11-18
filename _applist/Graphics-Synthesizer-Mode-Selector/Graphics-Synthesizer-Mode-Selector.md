@@ -26,4 +26,4 @@ Well, GSM just makes a simple upscaling. It doesn't making interpolation (i.e. i
 
 So, there is no miracle here... The greater the quality of source (original) resolution of the game, the better will be the results that will be displayed on target (forced) resolutions - specially on the higher ones, where the images naturally tend to be pixelized.
 
-Newer versions of GSM are integrated into [Open PS2 Loader](https://github.com/ps2homebrew/Open-PS2-Loader)
+Newer versions of GSM are integrated into [Open PS2 Loader](https://github.com/ps2homebrew/Open-PS2-Loader).
