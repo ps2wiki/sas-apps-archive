@@ -10,7 +10,7 @@ version: 0.7.1
 features:
     - label: Compatible across all models
       icon: fa-user-check
-    - label: Last updated: 2018
+    - label: Last updated in 2018
       icon: fa-file-upload
     - label: Fairly popular
       icon: fa-chart-line
