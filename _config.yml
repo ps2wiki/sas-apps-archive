@@ -6,7 +6,7 @@ email: --
 description: >
    
 baseurl: "/sas-apps-archive"
-url: "koraxial.github.io"
+url: "ps2wiki.github.io"
 permalink: pretty
 #favicon: /path/to/favicon.png
 hide_share_buttons: true
