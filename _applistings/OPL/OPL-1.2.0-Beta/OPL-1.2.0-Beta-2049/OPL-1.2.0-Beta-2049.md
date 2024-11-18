@@ -4,7 +4,7 @@ subtitle: Game and app loader for Sony PlayStation 2
 description: More about Open PS2 Loader
 developer: ps2homebrew
 hide_hero: true
-app_code: APPLIST017
+app_code: APPLIST001
 layout: applist
 image: https://rggames.com.br/wp-content/uploads/2024/06/opl.jpg
 version: v1.2.0-Beta-2049
