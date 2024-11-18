@@ -15,4 +15,5 @@ sort: app_code
 
 <a id="APP_PSUs"> </a>
     <p><a style="font-size: 2em; font-weight: bold; color: white; text-decoration: underline"href="#APP-PSUs">➽ APP PSUs</a>
-<div style="font-size: 1em; font-weight: bold; color: white">Note: Click the tile to view app details, press <code>⬇️ Download</code> to download</div><hr>
+<div style="font-size: 1em; font-weight: bold; color: white">Note: Click the tile to view app details</div><hr>
+<!-- <div style="font-size: 1em; font-weight: bold; color: white">Note: Click the tile to view app details, press <code>⬇️ Download</code> to download</div><hr> -->
