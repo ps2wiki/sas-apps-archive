@@ -29,15 +29,15 @@ show_sidebar: false
                         <p class="subtitle is-4">{{ applist.subtitle }}</p></br>
                         <div style="float: left"><p> {% if applist.download %}
                             <script>
-                                function download_link() {
+                                function download_link_list() {
                                   var bits = ["https://"];
                                   bits.push("{{ applist.download }}");
                                   var url = bits.join("");
                                   document.getElementById("dllink").setAttribute("href",url);
                                 }
-                                download_link();
+                                download_link_list();
                             </script>
-                            <a id="dllink" href="https://"  class="download_btn" onclick="download_link();return true;"><i style="color: wheat" class="fas fa-download"></i> Download</a>
+                            <a id="dllink" href="https://" class="download_btn" onclick="download_link_list();return true;"><i style="color: wheat" class="fas fa-download"></i> Download</a>
                             {% endif %} </p></div>
                         <div style="float: right"><p class="title is-5 has-text-right">{{ applist.version }}</p></div></br></br>
                     </div>
