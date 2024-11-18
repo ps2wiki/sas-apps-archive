@@ -31,7 +31,7 @@ show_sidebar: false
                             <script>
                                 function download_link() {
                                   var bits = ["https://"];
-                                  bits.push("{{ applist.download }}");
+                                  bits.push("{{ applistings.download }}");
                                   var url = bits.join("");
                                   document.getElementById("dllink").setAttribute("href",url);
                                 }
