@@ -1,6 +1,6 @@
 ---
 title: Apollo Save Tool (PS2)
-subtitle: An application to manage save-game files on the PS2
+subtitle: An application to manage save-game files on PS2
 description: More about Apollo Save Tool
 developer: bucanero
 hide_hero: true
