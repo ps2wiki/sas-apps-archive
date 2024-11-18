@@ -8,12 +8,12 @@ show_sidebar: false
     </div>
 
     {% if page.collection %}
-        {% assign sorted_applist = site.[page.collection] | sort: page.sort %}
+        {% assign sorted_applistings = site.[page.collection] | sort: page.sort %}
     {% else %}
-        {% assign sorted_applist = site.applist | sort: page.sort %}
+        {% assign sorted_applistings = site.applist | sort: page.sort %}
     {% endif %}
 
-    {% for applist in sorted_applist %}
+    {% for applist in sorted_applistings %}
         <div class="column is-4-desktop is-6-tablet">
             <a href="{{ applist.url | relative_url }}">
                 <div style="border: 3px outset wheat" class="card">
