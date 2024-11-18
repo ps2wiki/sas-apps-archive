@@ -78,7 +78,7 @@ highlighter: rouge
 footer_menu: example_footer_menu
 
 collections:
-  applist: 
+  applistings: 
     output: true
     layout: applist
     image: https://preview.redd.it/vsprmxbhzaj81.png?auto=webp&s=f44361fa1cc8085a51394eeddcb72c52e4f98a05
