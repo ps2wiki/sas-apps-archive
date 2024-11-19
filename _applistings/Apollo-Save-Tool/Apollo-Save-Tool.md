@@ -19,7 +19,7 @@ download: app.filen.io/#/d/865bf748-3ac2-41f2-bad6-771c7efdc249#ffIpL6W4dfJFwXcW
 rating: 5
 ---
 
-This homebrew app allows you to download, unlock, patch and resign save-game files directly on your PS2.  
+This homebrew app allows you to download, unlock, patch and manage save-game files directly on your PS2.  
 
 Features:
 - Easy to use: no advanced setup needed.
