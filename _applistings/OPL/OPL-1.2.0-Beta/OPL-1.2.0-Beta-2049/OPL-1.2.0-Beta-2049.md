@@ -3,6 +3,7 @@ title: Open PS2 Loader
 subtitle: Game and app loader for Sony PlayStation 2
 description: More about Open PS2 Loader
 developer: ps2homebrew
+visit_project: https://github.com/ps2homebrew/Open-PS2-Loader
 hide_hero: true
 app_code: APPLIST001
 layout: applist
