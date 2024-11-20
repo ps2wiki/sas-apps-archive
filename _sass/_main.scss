@@ -35,3 +35,20 @@ $hero-darken: $dark !default;
 .download_btn:hover {
   background-color: #495b7e; 
 }
+
+.project_btn {
+  font-size: 20px; 
+  width: auto; 
+  cursor: pointer; 
+  color: wheat; 
+  background-color: #6aa84f; 
+  padding: 10px; 
+  border-radius: 5px; 
+  border-style: solid; 
+  border-color: wheat; 
+  border-width: 2px
+}
+
+.project_btn:hover {
+  background-color: #59A388; 
+}
