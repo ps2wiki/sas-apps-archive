@@ -35,8 +35,8 @@ layout: default
                     </p>
                 {% endfor %}
                 </br>
-
-                {% if page.download %}
+<div><div style="float: left; margin-right: 25px">
+{% if page.download %}
 <script>
     function download_link() {
       var bits = ["https://"];
@@ -47,8 +47,8 @@ layout: default
     download_link();
 </script>
 <a id="dllink" href="https://" class="download_btn" onclick="download_link();return true;"><i style="color: wheat" class="fas fa-download"></i> Download</a>
-                {% endif %}
-
+                {% endif %}</div>
+<div style="float: left">
 {% if page.visit_project %}
 <script>
     function project_link() {
@@ -60,7 +60,7 @@ layout: default
     project_link();
 </script>
 <a id="vplink" href="https://" class="project_btn" onclick="project_link();return true;"><i style="color: wheat" class="fas fa-external-link-alt"></i> Visit Project</a>
-                {% endif %}
+                {% endif %}</div></div>
             </div>
         {% endif %}
     </div>
