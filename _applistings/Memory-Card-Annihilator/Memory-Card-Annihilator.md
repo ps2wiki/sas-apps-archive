@@ -7,7 +7,7 @@ visit_project: https://www.psx-place.com/threads/memory-card-annihilator-v2-0a-a
 hide_hero: true
 app_code: APL002-007
 layout: applist
-image: https://s22.postimg.cc/lcb9l0vup/mca_mcinfo.png
+image: https://gbatemp.net/attachments/1-png.170031/
 version: v2.0a
 features:
     - label: Compatible across all models
