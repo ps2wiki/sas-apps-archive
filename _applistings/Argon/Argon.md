@@ -3,6 +3,7 @@ title: Argon
 subtitle: SMS-based player with XMB GUI
 description: Argon
 developer: argonps2
+visit_project: https://www.psx-place.com/resources/argon-sms-based-player-with-xmb-gui-by-argonps2.674/extra
 hide_hero: true
 app_code: APPLIST003
 layout: applist
