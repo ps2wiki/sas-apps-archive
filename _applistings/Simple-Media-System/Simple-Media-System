@@ -1,0 +1,32 @@
+---
+title: Simple Media System
+subtitle: An application to manage save-game files on PS2
+description: >-
+  All-in-One media center for the Playstation 2.
+  Allows multiple USB Devices and/or IHD (Internal Hard Drive).
+  AVI / DIVX / MP3 / + JPG support.
+developer: EEUG (Eugene Plotnikov)
+visit_project: https://github.com/ps2homebrew/SMS
+hide_hero: true
+app_code: APL002-006
+layout: applist
+image: https://i.postimg.cc/TPRgrkS0/SMS-SPLASH-SCREEN.jpg
+version: v2.9 (Rev 4)
+features:
+    - label: Compatible across all models
+      icon: fa-user-check
+    - label: Last updated in 2009
+      icon: fa-file-upload
+    - label: Highly popular
+      icon: fa-chart-line
+download: 
+rating: 5
+---
+
+Simple Media System (SMS) is a result of the original author's (Eugene Plotnikov's) curiosity about Sony's Playstation 2, MIPS, DivX, and MP3. His original goal was to create a simple DivX player able to play good resolution movies (at good frame rate) on an unmodded PS2 without any extra equipment such as HDD, or network adapter.
+
+Why create a complete "system"? Just because having only a player program is not enough. Since the PS2 conventionally ignores "illegal" disks, he took the idea from Drakonite with his UMCDR and developed his own "UMCDR". (called CDDAFS). It just stores data on CD audio disk format, which can be read by (hopefully) any PS2.
+
+It can play DivX movies with sound at a good frame rate. Player's base is a famous ffmpeg project. EEUG took just some parts of it (DivX 5XX and MP3) and made some modifications specific to PS2 hardware. It has been tested with many DivX/XviD movies, with different screen resolutions and encoding methods, and it seems to be working.
+
+Since the initial concept, the SMS project has now grown to include support for network files, USB drives, and Hard Disc Drives. It now also allows subtitles to be displayed, and contains a fully functional MP3 player. This has been made available in the hope that it will be interesting for PS2 enthusiasts who use it as a base for their own development.
