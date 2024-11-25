@@ -6,7 +6,7 @@ description: >-
 developer: ps2homebrew
 visit_project: github.com/ps2homebrew/Open-PS2-Loader
 hide_hero: true
-app_code: APPLIST001
+app_code: APL002-001
 layout: applist-multi
 image: https://rggames.com.br/wp-content/uploads/2024/06/opl.jpg
 version: v0.5 to v1.2.0-Beta-2049
