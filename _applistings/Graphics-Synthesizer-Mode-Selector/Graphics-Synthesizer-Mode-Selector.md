@@ -3,6 +3,7 @@ title: Graphics Synthesizer Mode Selector (GSM)
 subtitle: GSM converts the original graphic modes of a PS2 software to custom ones
 description: More about GSM
 developer: doctorxyz, dlanor, sp193 & reprep
+visit_project: https://www.psx-place.com/resources/graphics-synthesizer-mode-selector-gsm.678/
 hide_hero: true
 app_code: APPLIST005
 layout: applist
