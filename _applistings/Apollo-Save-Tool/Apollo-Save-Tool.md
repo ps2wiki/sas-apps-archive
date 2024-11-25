@@ -1,8 +1,9 @@
 ---
 title: Apollo Save Tool (PS2)
 subtitle: An application to manage save-game files on PS2
-description: More about Apollo Save Tool
+description: This homebrew app allows you to download, unlock, patch and manage save-game files directly on your PS2
 developer: bucanero
+visit_project: https://github.com/bucanero/apollo-ps2
 hide_hero: true
 app_code: APPLIST002
 layout: applist
@@ -26,4 +27,3 @@ Features:
 - Standalone: no computer required, everything happens on the PS2.
 - Automatic settings: auto-detection of User settings.
 
-You can read more about Apollo Save Tool [here](https://github.com/bucanero/apollo-ps2).
