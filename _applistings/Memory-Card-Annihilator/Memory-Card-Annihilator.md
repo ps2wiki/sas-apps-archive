@@ -36,7 +36,7 @@ The previous version, although worked really nice (got quite
 a lot of success stories), had two big drawbacks:  
 - was all in Polish language  
 - display mode was fixed to PAL  
-<br><br><br>
+<br><br>
 
 Basic usage:  
 The video mode needed should be detected automatically
