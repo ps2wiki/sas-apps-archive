@@ -42,27 +42,27 @@ layout: default
 {% if page.download %}
 <script>
     function download_link() {
-      var bits = ["https://"];
+      var bits = [""];
       bits.push("{{ page.download }}");
       var url = bits.join("");
       document.getElementById("dllink").setAttribute("href",url);
     }
     download_link();
 </script>
-<a id="dllink" href="https://" class="download_btn" onclick="download_link();return true;"><i style="color: wheat" class="fas fa-download"></i> Download</a>
+<a id="dllink" href="" class="download_btn" onclick="download_link();return true;"><i style="color: wheat" class="fas fa-download"></i> Download</a>
                 {% endif %}</div></br>
 <div style="align-self: center">
 {% if page.visit_project %}
 <script>
     function project_link() {
-      var bits = ["https://"];
+      var bits = [""];
       bits.push("{{ page.visit_project }}");
       var url = bits.join("");
       document.getElementById("vplink").setAttribute("href",url);
     }
     project_link();
 </script>
-<a id="vplink" href="https://" class="project_btn" onclick="project_link();return true;"><i style="color: wheat" class="fas fa-external-link-alt"></i> Visit Project</a>
+<a id="vplink" href="" class="project_btn" onclick="project_link();return true;"><i style="color: wheat" class="fas fa-external-link-alt"></i> Visit Project</a>
                  {% endif %}</div></div>
             
         {% endif %}
