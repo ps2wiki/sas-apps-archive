@@ -38,7 +38,7 @@ layout: default
     
 <div style="flow: left; margin-left: 10px">
 <strong>Select version of {{ page.title }} to download:</strong></br>
-<div style="flow: left" class="applist-multi_button_flex"><div style="align-self: center; margin-right: 5px">
+<div style="flow: left" class="applist-multi_button_flex"><div style="align-self: center; margin-right: 20px">
 <select class="download_btn" id="download_select">
     <option value="{{ page.download_1 }}">{{ page.name_download_1 }}</option>
   {% if page.download_2 %}
@@ -84,7 +84,7 @@ layout: default
     <option value="{{ page.download_15 }}">{{ page.name_download_15 }}</option>
   {% endif %}
 </select></div></br>
-<div style="align-self: center; margin-right: 5px">
+<div style="align-self: center; margin-right: 20px">
     <a type="button" onclick="window.location.href=document.getElementById('download_select').value" class="download_btn"><i style='color: wheat' class='fas fa-download'></i> Download</a>
 </div></br>
   
