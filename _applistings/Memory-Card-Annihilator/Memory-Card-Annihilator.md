@@ -44,6 +44,6 @@ The video mode needed should be detected automatically
 If it fails for some reason, you can always force particular mode
 by keeping a button pressed during application startup. <br><br>
 The options are as follows:
-- PAL - press dpad RIGHT.
-- NTSC - press dpad LEFT.
-- VGA (640x480) - press dpad UP.
+- PAL - press dpad RIGHT
+- NTSC - press dpad LEFT
+- VGA (640x480) - press dpad UP
