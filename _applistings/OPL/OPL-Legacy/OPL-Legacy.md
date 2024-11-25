@@ -1,7 +1,8 @@
 ---
 title: Open PS2 Loader (Legacy)
 subtitle: Game and app loader for Sony PlayStation 2
-description: More about Open PS2 Loader
+description: >-
+    Open PS2 Loader (OPL) is a 100% Open source game and application loader for the PS2 and PS3 units. It supports five categories of         devices: USB mass storage devices, MX4SIO (SD card connected to memory card port via adapter), iLink (SBP2 compliant storage devices      via IEE1394), SMBv1 shares and the PlayStation 2 HDD unit. USB/SMB/MX4SIO/iLink support both USBExtreme and *.ISO formats while PS2       HDD supports HDLoader format, all devices also support ZSO format (compressed ISO). It's now the most compatible homebrew loader.
 developer: ps2homebrew
 visit_project: github.com/ps2homebrew/Open-PS2-Loader
 hide_hero: true
