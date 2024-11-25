@@ -6,7 +6,7 @@ description: >-
   Allows multiple USB Devices and/or IHD (Internal Hard Drive)  
   AVI / DIVX / MP3 / JPG support  
 developer: EEUG (Eugene Plotnikov)
-visit_project: //github.com/ps2homebrew/SMS
+visit_project: github.com/ps2homebrew/SMS
 hide_hero: true
 app_code: APL002-006
 layout: applist
