@@ -5,7 +5,7 @@ description: More about GSM
 developer: doctorxyz, dlanor, sp193 & reprep
 visit_project: https://www.psx-place.com/resources/graphics-synthesizer-mode-selector-gsm.678/
 hide_hero: true
-app_code: APPLIST005
+app_code: APL002-004
 layout: applist
 image: https://s22.postimg.cc/9lnosyf4h/gsm038.png
 version: v0.38
