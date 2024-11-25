@@ -35,7 +35,9 @@ layout: default
                     </p>
                 {% endfor %}
                 </br>
-<div><div style="float: left; margin-right: 25px">
+<div style="overflow: auto; flow: left; margin-left: 10px; padding: 20px; border-style: solid; border-color: wheat; border-width: 2px; border-radius: 10px"></br>
+    <p class="title is-5 has-text-left">Select version of {{ page.title }} to download:</p></br>
+<div style="flow: left" class="applist-multi_button_flex"><div style="align-self: center; margin-right: 10px">
 {% if page.download %}
 <script>
     function download_link() {
@@ -48,7 +50,7 @@ layout: default
 </script>
 <a id="dllink" href="https://" class="download_btn" onclick="download_link();return true;"><i style="color: wheat" class="fas fa-download"></i> Download</a>
                 {% endif %}</div>
-<div style="float: left">
+<div style="align-self: center">
 {% if page.visit_project %}
 <script>
     function project_link() {
@@ -60,10 +62,11 @@ layout: default
     project_link();
 </script>
 <a id="vplink" href="https://" class="project_btn" onclick="project_link();return true;"><i style="color: wheat" class="fas fa-external-link-alt"></i> Visit Project</a>
-                {% endif %}</div></div>
-            </div>
+                 {% endif %}</div></div>
+            
         {% endif %}
-    </div>
+    </br></div>
+                
 <div style="padding: 10px"><div style="border-radius: 10px; padding: 10px; border: 2px outset #ffffff" class="app_desc">
     <div style="font-weight: bold" class="column is-12">
     </br>
