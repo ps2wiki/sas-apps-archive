@@ -1,0 +1,102 @@
+---
+layout: default
+---
+<div class="columns is-multiline">
+    <div class="column is-6">
+        <figure class="image is-4by3">
+            <img style="border-style: solid; border-color: wheat; border-width: 2px; border-radius: 10px" src="{{ page.image }}">
+        </figure>
+    </div>
+
+    <div class="column is-6">
+        <p class="title is-3">{{ page.title }}</p>
+        <p class="subtitle is-3">{{ page.subtitle }}</p></br>
+        <p class="title is-5 has-text-right">by {{ page.developer }}</p>
+        <p class="title is-5 has-text-left">Version: {{ page.version }}</p>
+       <!-- {% if page.app_code %}
+            <p class="subtitle is-5 has-text-right">{{ page.app_code }}</p>
+        {% endif %} 
+        {% if page.rating %}
+            {% include rating.html rating=page.rating %}
+        {% endif %} -->
+    </br>
+        {% if page.features %}
+            <div class="content">
+                {% for feature in page.features %}
+                    <p>
+                        <span class="icon">
+                            {% if feature.icon %}
+                                <i class="fas {{ feature.icon }}"></i>
+                            {% else %}
+                                <i class="fas fa-circle fa-xs"></i>
+                            {% endif %}
+                        </span>
+                        <span>{{ feature.label }}</span>
+                    </p>
+                {% endfor %}
+                </br>
+
+              
+<div><div style="float: left; margin-right: 25px">
+<script>
+<select id="download_select">
+    <option value="{{ page.download_1 }}">{{ page.name_download_1 }}</option>
+  {% if page.download_2 %}
+    <option value="{{ page.download_2 }}">{{ page.name_download_2 }}</option>{% endif %}
+  {% if page.download_3 %}
+    <option value="{{ page.download_3 }}">{{ page.name_download_3 }}</option>{% endif %}
+  {% if page.download_4 %}
+    <option value="{{ page.download_4 }}">{{ page.name_download_4 }}</option>{% endif %}
+  {% if page.download_5 %}
+    <option value="{{ page.download_5 }}">{{ page.name_download_5 }}</option>{% endif %}
+  {% if page.download_6 %}
+    <option value="{{ page.download_6 }}">{{ page.name_download_6 }}</option>{% endif %}
+  {% if page.download_7 %}
+    <option value="{{ page.download_7 }}">{{ page.name_download_7 }}</option>{% endif %}
+  {% if page.download_8 %}
+    <option value="{{ page.download_8 }}">{{ page.name_download_8 }}</option>{% endif %}
+  {% if page.download_9 %}
+    <option value="{{ page.download_9 }}">{{ page.name_download_9 }}</option>{% endif %}
+  {% if page.download_10 %}
+    <option value="{{ page.download_10 }}">{{ page.name_download_10 }}</option>{% endif %}
+</select>
+</script>
+<input type="button" onclick="window.location.href=document.getElementById('download_select').value" value="<i style="color: wheat" class="fas fa-download"></i> Download" class="download_btn" />
+
+
+  
+<div style="float: left">
+{% if page.visit_project %}
+<script>
+    function project_link() {
+      var bits = ["https://"];
+      bits.push("{{ page.visit_project }}");
+      var url = bits.join("");
+      document.getElementById("vplink").setAttribute("href",url);
+    }
+    project_link();
+</script>
+<a id="vplink" href="https://" class="project_btn" onclick="project_link();return true;"><i style="color: wheat" class="fas fa-external-link-alt"></i> Visit Project</a>
+                {% endif %}</div></div>
+            </div>
+        {% endif %}
+    </div>
+<div style="padding: 10px"><div style="border-radius: 10px; padding: 10px; border: 2px outset #ffffff" class="app_desc">
+    <div style="font-weight: bold" class="column is-12">
+    </br>
+        <p class="title is-4">Description</p>
+    </br>
+        <div class="content">
+            {{ content }}
+        </div>
+    </div>
+</div></div>
+    {% if site.data.reviews[page.app_code] %}
+        <div class="column is-12">
+            <p class="title is-4">Reviews</p>
+            {% for review in site.data.reviews[page.app_code] %}
+                {% include review.html %}
+            {% endfor %}
+        </div>
+    {% endif %}
+</div>
