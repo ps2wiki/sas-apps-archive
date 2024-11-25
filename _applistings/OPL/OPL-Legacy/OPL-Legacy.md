@@ -19,7 +19,7 @@ features:
 rating: 5
 
 #1
-name_download_1: v1.2.0-2049
+name_download_1: v1.2.0-B-2049
 download_1: https://app.filen.io/#/d/18d0a218-fc52-4553-87f6-966e77c85752#7dq6xD4k7N0618pqFKfWJLa61BA87yAo
 
 #2
