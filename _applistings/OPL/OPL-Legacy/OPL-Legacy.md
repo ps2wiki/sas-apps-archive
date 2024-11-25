@@ -20,11 +20,11 @@ features:
 rating: 5
 
 #1
-name_download_1: v1.2.0-B-2049
+name_download_1: v1.2.0-Beta-2049
 download_1: https://app.filen.io/#/d/18d0a218-fc52-4553-87f6-966e77c85752#7dq6xD4k7N0618pqFKfWJLa61BA87yAo
 
 #2
-name_download_2:  v1.2-2049GID
+name_download_2:  v1.2.0-Beta-2049-GID fork
 download_2: https://app.filen.io/#/d/79b254ad-c4ab-456c-9708-44e076edbeb4#1kGrXHLES1T6mMuF8tqWKvGSc6szuA7B
 
 #3
