@@ -39,7 +39,7 @@ layout: default
               
 <div><div style="float: left; margin-right: 25px">
 
-<select id="download_select">
+<select class="download_btn" id="download_select">
     <option value="{{ page.download_1 }}">{{ page.name_download_1 }}</option>
   {% if page.download_2 %}
     <option value="{{ page.download_2 }}">{{ page.name_download_2 }}</option>
@@ -70,8 +70,8 @@ layout: default
   {% endif %}
 </select>
 
-<input type="button" onclick="window.location.href=document.getElementById('download_select').value" value="Download" class="download_btn" />
-
+<input type="button" onclick="window.location.href=document.getElementById('download_select').value" value="<i style='color: wheat' class='fas fa-download'></i> Download" class="download_btn" />
+</div>
 
   
 <div style="float: left">
