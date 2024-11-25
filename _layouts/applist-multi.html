@@ -37,53 +37,54 @@ layout: default
                 </br></div></div></br></br>
     
 <div style="flow: left; margin-left: 10px">
-<strong>Select version of {{ page.title }} to download:</strong></br>
+    <p class="title is-5 has-text-left">Select version of {{ page.title }} to download:</p></br>
 <div style="flow: left" class="applist-multi_button_flex"><div style="align-self: center; margin-right: 10px">
-<select class="download_btn" id="download_select">
-    <option value="{{ page.download_1 }}">{{ page.name_download_1 }}</option>
-  {% if page.download_2 %}
-    <option value="{{ page.download_2 }}">{{ page.name_download_2 }}</option>
-  {% endif %}
-  {% if page.download_3 %}
-    <option value="{{ page.download_3 }}">{{ page.name_download_3 }}</option>
-  {% endif %}
-  {% if page.download_4 %}
-    <option value="{{ page.download_4 }}">{{ page.name_download_4 }}</option>
-  {% endif %}
-  {% if page.download_5 %}
-    <option value="{{ page.download_5 }}">{{ page.name_download_5 }}</option>
-  {% endif %}
-  {% if page.download_6 %}
-    <option value="{{ page.download_6 }}">{{ page.name_download_6 }}</option>
-  {% endif %}
-  {% if page.download_7 %}
-    <option value="{{ page.download_7 }}">{{ page.name_download_7 }}</option>
-  {% endif %}
-  {% if page.download_8 %}
-    <option value="{{ page.download_8 }}">{{ page.name_download_8 }}</option>
-  {% endif %}
-  {% if page.download_9 %}
-    <option value="{{ page.download_9 }}">{{ page.name_download_9 }}</option>
-  {% endif %}
-  {% if page.download_10 %}
-    <option value="{{ page.download_10 }}">{{ page.name_download_10 }}</option>
-  {% endif %}
-  {% if page.download_11 %}
-    <option value="{{ page.download_11 }}">{{ page.name_download_11 }}</option>
-  {% endif %}
-  {% if page.download_12 %}
-    <option value="{{ page.download_12 }}">{{ page.name_download_12 }}</option>
-  {% endif %}
-  {% if page.download_13 %}
-    <option value="{{ page.download_13 }}">{{ page.name_download_13 }}</option>
-  {% endif %}
-  {% if page.download_14 %}
-    <option value="{{ page.download_14 }}">{{ page.name_download_14 }}</option>
-  {% endif %}
-  {% if page.download_15 %}
-    <option value="{{ page.download_15 }}">{{ page.name_download_15 }}</option>
-  {% endif %}
-</select></div></br>
+    <select class="download_btn" id="download_select">
+        <option value="{{ page.download_1 }}">{{ page.name_download_1 }}</option>
+      {% if page.download_2 %}
+        <option value="{{ page.download_2 }}">{{ page.name_download_2 }}</option>
+      {% endif %}
+      {% if page.download_3 %}
+        <option value="{{ page.download_3 }}">{{ page.name_download_3 }}</option>
+      {% endif %}
+      {% if page.download_4 %}
+        <option value="{{ page.download_4 }}">{{ page.name_download_4 }}</option>
+      {% endif %}
+      {% if page.download_5 %}
+        <option value="{{ page.download_5 }}">{{ page.name_download_5 }}</option>
+      {% endif %}
+      {% if page.download_6 %}
+        <option value="{{ page.download_6 }}">{{ page.name_download_6 }}</option>
+      {% endif %}
+      {% if page.download_7 %}
+        <option value="{{ page.download_7 }}">{{ page.name_download_7 }}</option>
+      {% endif %}
+      {% if page.download_8 %}
+        <option value="{{ page.download_8 }}">{{ page.name_download_8 }}</option>
+      {% endif %}
+      {% if page.download_9 %}
+        <option value="{{ page.download_9 }}">{{ page.name_download_9 }}</option>
+      {% endif %}
+      {% if page.download_10 %}
+        <option value="{{ page.download_10 }}">{{ page.name_download_10 }}</option>
+      {% endif %}
+      {% if page.download_11 %}
+        <option value="{{ page.download_11 }}">{{ page.name_download_11 }}</option>
+      {% endif %}
+      {% if page.download_12 %}
+        <option value="{{ page.download_12 }}">{{ page.name_download_12 }}</option>
+      {% endif %}
+      {% if page.download_13 %}
+        <option value="{{ page.download_13 }}">{{ page.name_download_13 }}</option>
+      {% endif %}
+      {% if page.download_14 %}
+        <option value="{{ page.download_14 }}">{{ page.name_download_14 }}</option>
+      {% endif %}
+      {% if page.download_15 %}
+        <option value="{{ page.download_15 }}">{{ page.name_download_15 }}</option>
+      {% endif %}
+    </select></div></br>
+    
 <div style="align-self: center; margin-right: 10px">
     <a type="button" onclick="window.location.href=document.getElementById('download_select').value" class="download_btn"><i style='color: wheat' class='fas fa-download'></i> Download</a>
 </div></br>
