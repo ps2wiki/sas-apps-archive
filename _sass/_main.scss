@@ -52,3 +52,14 @@ $hero-darken: $dark !default;
 .project_btn:hover {
   background-color: #59A388; 
 }
+
+.applist-multi_button_flex {
+  display: flex;
+}
+
+@media (max-width: 400px) {
+  .applist-multi_button_flex {
+  display: flex;
+  flex-direction: column;
+  }
+}
