@@ -37,7 +37,7 @@ layout: default
                 </br>
 
 <strong>Select version of {{ page.title }} to download:</strong></br>              
-<div style=""><div>
+<div style="display: flex"><div style="align-self: center">
 <select class="download_btn" id="download_select">
     <option value="{{ page.download_1 }}">{{ page.name_download_1 }}</option>
   {% if page.download_2 %}
@@ -72,7 +72,7 @@ layout: default
 <a type="button" onclick="window.location.href=document.getElementById('download_select').value" class="download_btn"><i style='color: wheat' class='fas fa-download'></i> Download</a>
 </div>
   
-<div style="margin-left: 20px">
+<div style="align-self: center; margin-left: 20px">
 {% if page.visit_project %}
 <script>
     function project_link() {
