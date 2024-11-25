@@ -1,10 +1,10 @@
 ---
 title: Simple Media System
-subtitle: An application to manage save-game files on PS2
+subtitle:  All-in-One media center for the Playstation 2 with AVI/DIVX/MP3/JPG support
 description: >-
-  All-in-One media center for the Playstation 2.
-  Allows multiple USB Devices and/or IHD (Internal Hard Drive).
-  AVI / DIVX / MP3 / + JPG support.
+  All-in-One media center for the Playstation 2  
+  Allows multiple USB Devices and/or IHD (Internal Hard Drive)  
+  AVI / DIVX / MP3 / JPG support  
 developer: EEUG (Eugene Plotnikov)
 visit_project: https://github.com/ps2homebrew/SMS
 hide_hero: true
