@@ -1,6 +1,6 @@
 ---
 title: Memory Card Annihilator
-subtitle: A tool for formatting/unformatting memory cards and managing memory card images for PS2/PSX
+subtitle: A tool for formatting/unformatting MemoryCards and managing MC images for PS2/PSX
 description: A tool for formatting/unformatting MemoryCards and managing MC images for PS2/PSX
 developer: ffgriever
 visit_project: https://www.psx-place.com/threads/memory-card-annihilator-v2-0a-a-new-version-after-more-than-11-years.36277/
