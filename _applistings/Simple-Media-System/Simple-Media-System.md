@@ -8,8 +8,8 @@ description: >-
 developer: EEUG (Eugene Plotnikov)
 visit_project: https://github.com/ps2homebrew/SMS
 hide_hero: true
-app_code: APL002-006
-layout: applist
+app_code: APL003-006
+layout: applist-multi
 image: https://i.postimg.cc/TPRgrkS0/SMS-SPLASH-SCREEN.jpg
 version: v2.9 (Rev 4)
 features:
@@ -19,8 +19,15 @@ features:
       icon: fa-file-upload
     - label: Highly popular
       icon: fa-chart-line
-download: 
 rating: 5
+
+#1
+name_download_1: v2.9 (Rev 4)
+download_1: https://app.filen.io/#/d/2deae1aa-38d9-4520-a1f9-5c17c7b5e5b2#saMdWg1rdB2aSi33CTcfKUZEXCjNSaam
+
+#2
+name_download_2: Pre-Configured Save Data
+download_2: https://app.filen.io/#/d/c54698d8-2ef3-43c1-9d55-9b26a4518de8#tOnMr2h58YFRGd7UlpSZbhKBVqBUO6vC
 ---
 
 Simple Media System (SMS) is a result of the original author's (Eugene Plotnikov's) curiosity about Sony's Playstation 2, MIPS, DivX, and MP3. His original goal was to create a simple DivX player able to play good resolution movies (at good frame rate) on an unmodded PS2 without any extra equipment such as HDD, or network adapter. <br><br>  
