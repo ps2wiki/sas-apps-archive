@@ -5,7 +5,7 @@ description: A tool for formatting/unformatting memory cards and managing memory
 developer: ffgriever
 visit_project: https://www.psx-place.com/threads/memory-card-annihilator-v2-0a-a-new-version-after-more-than-11-years.36277/
 hide_hero: true
-app_code: APL002-007
+app_code: APL003-007
 layout: applist
 image: https://gbatemp.net/attachments/1-png.170031/
 version: v2.0a
