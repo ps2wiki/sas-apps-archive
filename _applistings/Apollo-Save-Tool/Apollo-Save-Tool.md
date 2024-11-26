@@ -5,7 +5,7 @@ description: This homebrew app allows you to download, unlock, patch and manage 
 developer: bucanero
 visit_project: https://github.com/bucanero/apollo-ps2
 hide_hero: true
-app_code: APL002-002
+app_code: APL003-002
 layout: applist
 image: https://github.com/bucanero/apollo-ps2/raw/main/docs/screenshots/screenshot-main.png
 version: v0.7.0
