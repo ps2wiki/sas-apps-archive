@@ -5,7 +5,7 @@ description: Argon
 developer: argonps2
 visit_project: https://www.psx-place.com/resources/argon-sms-based-player-with-xmb-gui-by-argonps2.674/extra
 hide_hero: true
-app_code: APL002-003
+app_code: APL003-003
 layout: applist
 image: https://s8.postimg.cc/oxb4ngdth/image.jpg
 version: v0.7.1
