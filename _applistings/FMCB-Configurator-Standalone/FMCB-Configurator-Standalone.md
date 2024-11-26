@@ -4,7 +4,7 @@ subtitle: Standalone ELF of the Free MCBoot Configurator
 description: More about FMCB Configurator
 developer:  Members of ps2homebrew
 hide_hero: true
-app_code: APL002-005
+app_code: APL003-005
 layout: applist
 image: https://sksapps.haldrie.com/bootleg/tutorials/fmcb/FMCBv1.8/launch_k.jpg
 version: v1.9
