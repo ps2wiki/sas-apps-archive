@@ -3,7 +3,8 @@ lang: en
 title: SAS Apps Archive
 tagline: The one place to download all PS2 Apps
 email: --
-description: >
+description: >-
+    The one place to download all PS2 Apps
    
 baseurl: "/sas-apps-archive"
 url: "ps2wiki.github.io"
