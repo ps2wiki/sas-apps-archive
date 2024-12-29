@@ -7,7 +7,7 @@ visit_project: https://github.com/JonathanDotCel/bootcard_igr
 hide_hero: true
 sysapps_code: SAL001-005
 layout: sysappslist
-image: https://s33.postimg.cc/xlv59493z/IGR_BG.jpg
+image: https://i.postimg.cc/PrmwPHf5/mcethumb-Recovered-Recovered-copy.png
 version: v0.1
 features:
     - label: Compatible across all models
