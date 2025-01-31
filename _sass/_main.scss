@@ -73,3 +73,20 @@ $hero-darken: $dark !default;
   font-size: 0.7em;
   }
 }
+
+/* ----- cursor -----*/
+.superclass {
+  cursor: url(/assets/images/default-cursor.png), auto;
+  -webkit-animation: cursor 400ms infinite;
+  animation: cursor 400ms infinite;
+}
+
+@-webkit-keyframes cursor {
+  0% {cursor: url(/assets/images/default-cursor.png), auto;}
+  100% {cursor: url(/assets/images/default-cursor.png), auto;}
+} 
+
+@keyframes cursor {
+  0% {cursor: url(/assets/images/default-cursor.png), auto;}
+  100% {cursor: url(/assets/images/default-cursor.png), auto;}
+}
