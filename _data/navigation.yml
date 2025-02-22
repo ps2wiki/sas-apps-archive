@@ -13,7 +13,7 @@
       link: /psu-categories/games.html 
     - name: Other
       link: /psu-categories/other.html
-    - name: β Untested
+    - name: (β) Untested
       link: https://ps2wiki.github.io/sas-apps-archive/untested/
 - name: Documentation
   link: https://ps2wiki.github.io/documentation/homebrew/PS2-App-System/SAS/index.html
