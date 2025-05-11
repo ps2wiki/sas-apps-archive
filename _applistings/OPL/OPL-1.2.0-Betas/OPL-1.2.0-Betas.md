@@ -8,7 +8,7 @@ visit_project: https://github.com/ps2homebrew/Open-PS2-Loader
 hide_hero: true
 app_code: APL003-001
 layout: applist-multi
-image: https://rggames.com.br/wp-content/uploads/2024/06/opl.jpg
+image: https://www.psx-place.com/attachments/opl-logo-2025-png.45831/
 version: v1.2.0 Official Betas
 features:
     - label: Compatible across all models
