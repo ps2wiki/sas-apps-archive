@@ -1,5 +1,5 @@
 ---
-title: Xbox 2 PlayStation Emulator 
+title: '[EMU] Xbox 2 PlayStation Emulator'
 subtitle: Original Xbox Emulator for The Sony PlayStation 2
 description: >-
    X2P is an Xbox emulator for the PlayStation 2. It was developed in secrecy, with consistent updates over the last 15 years. 
@@ -8,7 +8,7 @@ description: >-
 developer: no.1reb, Noiruto, Torpi & 0amlAF
 visit_project: https://github.com/koraxial/Xbox-2-PlayStation-Emulator-AlFa/
 hide_hero: true
-app_code: APL003-013
+app_code: APL003-004
 layout: applist-multi
 image: https://www.psx-place.com/attachments/opnps2ld-v1-2-0-beta-2082-c27f39a-_-_opnps2ld-v1-2-0-beta-2082-c27f39a_20240409190803-png.42757/
 version: v0.5.4
