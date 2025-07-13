@@ -16,7 +16,7 @@ features:
       icon: fa-file-upload
     - label: Fairly popular
       icon: fa-chart-line
-download: <>
+download: https://cdn.discordapp.com/attachments/1367171512246861905/1393317766986993724/DST_PS2TEMPS.psu?ex=68740d4a&is=6872bbca&hm=a5ca228fe9825132dfeaa48ffddeeb26966d7474c0d7b7ec70ea431ed0f9361c&
 rating: 5
 ---
 
