@@ -5,7 +5,7 @@ description: HDD speed test tool for PlayStation 2 consoles
 developer: GrimBrew, ps2homebrew
 visit_project: https://github.com/ps2homebrew/PS2HDDTester
 hide_hero: true
-app_code: APL003-017
+app_code: APL003-001
 layout: applist
 image: https://github.com/ps2homebrew/PS2HDDTester/raw/master/images/hddtester.png
 version: v1.1
