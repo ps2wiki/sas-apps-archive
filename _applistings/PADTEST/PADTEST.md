@@ -1,7 +1,7 @@
 ---
 title: '[DST] PADTEST'
-subtitle: PS2 ELF for testing Playstation 1 Original/Dual Analog/Dualshock 1 and Playstation 2 Dualshock 2 controllers
-description: PS2 ELF for testing Playstation 1 Original/Dual Analog/Dualshock 1 and Playstation 2 Dualshock 2 controllers
+subtitle: An app for testing PS1 Original/DualAnalog/DualShock 1 and PS2 DualShock 2 controllers
+description: An app for testing PS1 Original/DualAnalog/DualShock 1 and PS2 DualShock 2 controllers
 developer: jbit
 visit_project: https://www.psx-place.com/resources/ps2-controller-tester-by-jbit.670/
 hide_hero: true
