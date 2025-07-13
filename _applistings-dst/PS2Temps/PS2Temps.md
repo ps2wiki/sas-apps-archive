@@ -5,7 +5,7 @@ description: An ELF for showing PS2 Temperatures
 developer: krat0s
 visit_project: https://www.psx-place.com/threads/ps2temps.27864/
 hide_hero: true
-app_code: APL003-019
+app_code: APL003-003
 layout: applist
 image: https://i.postimg.cc/fRN3ZYyH/SCPH-70004a.png
 version: v1.0
