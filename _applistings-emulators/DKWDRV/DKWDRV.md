@@ -5,7 +5,7 @@ description: DKWDRV is a replacement for the original PS1DRV of Playstation 2 co
 developer: anonymous
 visit_project: https://github.com/DKWDRV/DKWDRV
 hide_hero: true
-app_code: APL003-011
+app_code: APL003-001
 layout: applist
 image: https://hackinformer.com/wp-content/uploads/2024/09/Untitled-4.png
 version: v1.7.6
