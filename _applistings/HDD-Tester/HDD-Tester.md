@@ -1,5 +1,5 @@
 ---
-title: [DST] HDD Tester
+title: '[DST] HDD Tester'
 subtitle: HDD speed test tool for PlayStation 2 consoles
 description: HDD speed test tool for PlayStation 2 consoles
 developer: GrimBrew, ps2homebrew
