@@ -3,7 +3,7 @@ title: ROMVER-Checker
 subtitle: An app for checking and reporting the BootRom Version
 description: An app for checking and reporting the BootRom Version
 developer: slimpuggamer
-# visit_project: 
+visit_project: https://github.com/SlimPugGamer/ROMVersionChecker/
 hide_hero: true
 app_code: APL003-020
 layout: applist
@@ -20,4 +20,10 @@ download: https://cdn.discordapp.com/attachments/654819194482851880/139351500831
 rating: 5
 ---
 
-An app for checking and reporting the BootRom Version
+An app to check if a PS2 supports the following things:
+- System Updates
+- MechaPwn
+- ProtoPwn
+
+Usage:
+run the app from either FreeDVDBoot or a already installed MC with OpenTuna
