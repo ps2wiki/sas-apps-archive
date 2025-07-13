@@ -5,7 +5,7 @@ description: An app for testing PS1 Original/DualAnalog/DualShock 1 and PS2 Dual
 developer: jbit
 visit_project: https://www.psx-place.com/resources/ps2-controller-tester-by-jbit.670/
 hide_hero: true
-app_code: APL003-019
+app_code: APL003-018
 layout: applist
 image: https://i.postimg.cc/k5BxzKNY/pad-test.png
 version: v1.0
