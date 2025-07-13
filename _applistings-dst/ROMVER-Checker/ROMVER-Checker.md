@@ -1,11 +1,11 @@
 ---
-title: ROMVER-Checker
+title: '[DST] ROMVER-Checker
 subtitle: An app for checking and reporting the BootRom Version
 description: An app for checking and reporting the BootRom Version
 developer: slimpuggamer
 visit_project: https://github.com/SlimPugGamer/ROMVersionChecker/
 hide_hero: true
-app_code: APL003-020
+app_code: APL003-004
 layout: applist
 image: https://media.discordapp.net/attachments/657660185791430688/1391442812087566447/image.png?ex=68747b5a&is=687329da&hm=f4f82f671b9ebcb5ca5a02718c8a7120234bec6e58d3c1feb698e1212309daa8&=&format=webp&quality=lossless&width=865&height=537
 version: RC1
