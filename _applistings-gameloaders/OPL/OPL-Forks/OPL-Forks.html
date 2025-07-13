@@ -1,0 +1,211 @@
+---
+title: Open PS2 Loader (Forks)
+subtitle: Forks of the popular game and app loader for PlayStation 2
+description: >-
+    Forks of the popular game and app loader for Sony PlayStation 2
+developer: (Read Desc.)
+hide_hero: true
+app_code: APL003-001-02
+layout: applist-multi-ver
+image: https://1.bp.blogspot.com/-klcXIffn49o/VxsqPxRLK2I/AAAAAAAAAxI/U8JYVkV1T7Q6XqW9v2OVb7-EwRrAmhnIQCLcB/s1600/opl%2Blogo%2Bblack%2B1.jpg
+version: v1.2.0-Beta-builds (various)
+features:
+    - label: Compatible across all models
+      icon: fa-user-check
+    - label: Updated continuously
+      icon: fa-file-upload
+    - label: Highly popular
+      icon: fa-chart-line
+rating: 5
+visit_project: https://github.com/ps2homebrew/Open-PS2-Loader
+---
+
+<div style="width: 100%; overflow: auto; flow: left; margin-left: 10px; margin-right: 10px; padding: 20px; border-style: solid; border-color: wheat; border-width: 2px; border-radius: 10px"></br>
+    <p class="title is-5 has-text-left">Select version of {{ page.title }} to download:</p></br>
+    <div style="flow: left; margin-right: 10px" class="applist-multi_button_flex"><div style="align-self: left">
+        <select style="margin-right: 10px" class="download_btn" id="firstMenu" onchange="updateSecondMenu()">
+        <option value="">Select Fork</option>
+        <option value="krahjohlito">KrahJohlito's Fork</option>
+        <option value="game_id">GameID Fork</option>
+        <option value="grimdoomer">Grimdoomer's Fork</option>
+        <option value="dailybuilds">⚠️ 10th Anniversary</option>
+        </select></div></br>
+
+        <div><select style="flow: left; margin-right: 10px" class="download_btn" id="secondMenu">
+            <option value="">Select Version</option>
+        </select></div></br>
+
+    <!-- Download -->
+    <div style="flow: left; margin-right: 10px">
+    <button class="download_btn" id="downloadBtn" onclick="goToUrl()" disabled><i style='color: wheat' class='fas fa-download'></i> Download</button>
+    </div>
+    
+    <script>
+        const data = {
+            krahjohlito: {
+                Latest: {
+                    url: "https://app.filen.io/#/d/8427c7fd-87fb-4e95-9115-17282631fee5#MjdcYlZjWIbWRbiF0fxEjBaFAftPMEMF",
+                    variants: ['']
+                }
+            },
+            
+            game_id: {
+                Latest: {
+                    url: "https://app.filen.io/#/d/3fc578e2-de8b-4d72-a564-22058fe50070#F5x1G93DIV9RY736G6e9pBgTdevdWvxx",
+                    variants: ['']
+                },
+            },
+            
+            grimdoomer: {
+                '⍟ 1.2.0.6': {
+                    url: "https://app.filen.io/#/d/10ac232e-4e5a-4cf9-8e5e-39ceb78bfd60#sNqh3xcbpkfGjow3bk7oLIdBzyIgcEPP",
+                    variants: ['']
+                },
+                '1.2.0.6 UDMA Plus': {
+                    url: "https://app.filen.io/#/d/d7591563-25b7-43f2-b0ac-5e3c404a0fed#cD3FWpLQn0MybhV1rEWKGdcDPOCCjgZv",
+                    variants: ['']
+                },
+                '1.2.0.6 PADEMU': {
+                    url: "https://app.filen.io/#/d/0d61f3fd-cb1f-4cd9-ba07-7d05a8f34c49#Nk1pxBpHjiZDmclEUDPYbZH00zD2aCb2",
+                    variants: ['']
+                },
+                '1.2.0.5': {
+                    url: "https://app.filen.io/#/d/20a378d9-7d90-4fc8-83bf-763413a9bf91#4ho4eD9YaRa9IxbyAjkJQBTqZ9KYX86a",
+                    variants: ['']
+                },
+                '1.2.0.5 PADEMU': {
+                    url: "https://app.filen.io/#/d/b27321cb-5c6c-4faf-acca-1344139f4bb4#SGgAsrcdyDzfRaoLX2MYfsWbovSduF0y",
+                    variants: ['']
+                },
+                '1.2.0.4': {
+                    url: "https://app.filen.io/#/d/5bc186ff-9167-4bb5-b64f-4691a2d56d22#8DmXXckap1ehBlNuadFrbOcV3SWA91re",
+                    variants: ['']
+                },
+                '1.2.0.4 PADEMU': {
+                    url: "https://app.filen.io/#/d/c748f78d-1c9f-4676-b18b-e173b31caa03#zpm3QUrhnaluz04OqXHNA5JXhwQvgNCh",
+                    variants: ['']
+                },
+                '1.2.0.3': {
+                    url: "https://app.filen.io/#/d/7586daf7-19e9-45af-a91e-598b618eb661#pCSG1froHHEcgBDJ2UFXohHzNSXQABgV",
+                    variants: ['']
+                },
+                '1.2.0.3 PADEMU': {
+                    url: "https://app.filen.io/#/d/af037fc8-c222-48a0-b00c-cf94f1c22170#UN5cAmJKgSotqJj5sfzpnxDivgkCjWMt",
+                    variants: ['']
+                },
+                '1.2.0.2': {
+                    url: "https://app.filen.io/#/d/0269d8d7-049e-4ae9-b6d1-fe63687ac63e#PjbdByPcPXUU9ZWgbkZ45YPqHWSQfUzk",
+                    variants: ['']
+                },
+                '1.2.0.2 Debug': {
+                    url: "https://app.filen.io/#/d/03933c7b-1f3d-4d44-8ad0-fd72e64cc27c#MBXrdNG9v6hDcP6s7nsAgKt0ArlBXeCm",
+                    variants: ['']
+                }, 
+            },
+            
+            dailybuilds: {
+                Latest: {
+                    url: "https://app.filen.io/#/d/3504eebc-d7a2-4735-97ab-ca47ca6f5337#iOY3RSzWeg6wH2gnHpCXhkXgAaaDaxb1",
+                    variants: ['']
+                }
+            }
+        };
+
+        let selectedCategory = '';
+        let selectedItem = '';
+        let selectedVariant = '';
+
+        function updateSecondMenu() {
+            const firstMenuValue = document.getElementById('firstMenu').value;
+            const secondMenu = document.getElementById('secondMenu');
+            const downloadBtn = document.getElementById('downloadBtn');
+
+            secondMenu.innerHTML = '<option value="">Select Version</option>';
+            downloadBtn.disabled = true;
+
+            if (firstMenuValue) {
+                const items = Object.keys(data[firstMenuValue]);
+                items.forEach(item => {
+                    const option = document.createElement('option');
+                    option.value = item;
+                    option.textContent = item.charAt(0).toUpperCase() + item.slice(1);
+                    secondMenu.appendChild(option);
+                });
+                secondMenu.disabled = false;
+            } else {
+                secondMenu.disabled = true;
+            }
+        }
+
+        document.getElementById('secondMenu').addEventListener('change', function() {
+            selectedCategory = document.getElementById('firstMenu').value;
+            selectedItem = this.value;
+
+            const downloadBtn = document.getElementById('downloadBtn');
+            if (selectedCategory && selectedItem) {
+                selectedVariant = data[selectedCategory][selectedItem].variants[0]; 
+                downloadBtn.disabled = false;
+            } else {
+                downloadBtn.disabled = true;
+            }
+        });
+
+        function goToUrl() {
+            if (selectedCategory && selectedItem) {
+                const url = data[selectedCategory][selectedItem].url;
+                window.location.href = url;
+            } else {
+                alert('Please select fork and version before proceeding!');
+            }
+        }
+    </script></br>
+  
+<script>
+    function project_link() {
+      var bits = [""];
+      bits.push("{{ page.visit_project }}");
+      var url = bits.join("");
+      document.getElementById("vplink").setAttribute("href",url);
+    }
+    project_link();
+</script>
+{% if page.visit_project %}
+<div style="flow: left">
+<a id="vplink" href="https://" class="project_btn" onclick="project_link();return true;"><i style="color: wheat" class="fas fa-external-link-alt"></i> Visit OG Project</a>
+</div>{% endif %}
+</div>
+            
+</br></div></div></div>
+    
+<div style="width: 100%; padding: 10px"><div style="border-radius: 10px; padding: 10px; border: 2px outset wheat" class="app_desc">
+    <div style="font-weight: bold" class="column is-12">
+    </br>
+        <p class="title is-4">Description</p>
+    </br>
+        <div class="content">
+            <h3 style="color: #fc564a">Use of OPL forks is <strong>strongly DISCOURAGED</strong>. Most of these are redundant and their features can be found in mainline OPL. Only use forks for testing purposes.</h3> 
+            </br>
+            Note: Forks listed here DO NOT come with any support/warranty. Use them at <strong>Your Own Risk</strong>.
+            </br></br>
+            <h4>Credits:</h4> <ol>
+                
+            <li>OPL KrahJohlito's Fork by KrahJohlito
+                <div><a class="project_btn" style="padding: 3.5px; font-size: 10px" href="https://github.com/KrahJohlito/Open-PS2-Loader"><i style="color: wheat" class="fas fa-external-link-alt"></i> Visit Project</a></div></br>
+            </li>
+                
+            <li>OPL Game ID Fork by qnox, El_isra, bbsan & 8BitMods Crew
+                <div><a class="project_btn" style="padding: 3.5px; font-size: 10px" href="https://install.appcenter.ms/orgs/beta-ucu9/apps/opl-with-gameid/distribution_groups/public"><i style="color: wheat" class="fas fa-external-link-alt"></i> Visit Project</a></div></br>
+            </li>
+                
+            <li>OPL Grimdoomer's Fork by Grimdoomer  
+                <div><a class="project_btn" style="padding: 3.5px; font-size: 10px" href="https://github.com/grimdoomer/Open-PS2-Loader"><i style="color: wheat" class="fas fa-external-link-alt"></i> Visit Project</a></div></br>
+            </li>
+                
+            <li>OPL 10th Anniversary Daily Builds by JayJay  
+                <div><a class="project_btn" style="padding: 3.5px; font-size: 10px" href="https://github.com/Jay-Jay-OPL/OPL-Daily-Builds"><i style="color: wheat" class="fas fa-external-link-alt"></i> Visit Project</a></div>
+                Note: This build has a known bug, using it might corrupt your PS1 VMC and cause you to lose all your in-game progress. </br></br> 
+            </li>
+            </ol>
+        </div>
+    </div>
+</div></div>

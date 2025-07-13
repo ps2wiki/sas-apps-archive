@@ -1,0 +1,1 @@
+<meta http-equiv="refresh" content="1; url=https://github.com/koraxial/Xbox-2-PlayStation-Emulator-AlFa/releases/download/SAS/EMU_X2P.psu">
