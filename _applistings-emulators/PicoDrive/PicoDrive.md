@@ -5,7 +5,7 @@ description: A port of PicoDrive for the PlayStation 2 console
 developer: irixxxx
 visit_project: https://github.com/irixxxx/picodrive
 hide_hero: true
-app_code: APL003-016
+app_code: APL003-003
 layout: applist
 image: https://wololo.net/wagic/wp-content/uploads/2018/01/picodrive.gif
 version: v2.01
