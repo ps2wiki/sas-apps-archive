@@ -5,7 +5,7 @@ description: A Highly customizable and flexible standalone POPStarter launcher
 developer: El_isra
 visit_project: https://www.psx-place.com/resources/popsloader.1396/
 hide_hero: true
-app_code: APL003-014
+app_code: APL003-002
 layout: applist
 image: https://i.ytimg.com/vi/3MdRi3mGGWU/hqdefault.jpg?sqp=-oaymwEmCOADEOgC8quKqQMa8AEB-AG-BYAC4AOKAgwIABABGH8gEygjMA8=&rs=AOn4CLBuAHWHZ2DHf7iXUfpa0a6M402uaw
 version: v1.0.0 - rev5
