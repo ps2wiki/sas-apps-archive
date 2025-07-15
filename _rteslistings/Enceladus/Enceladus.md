@@ -5,7 +5,7 @@ description: >-
     A complete Lua environment for creating homebrew applications and games on PlayStation 2
 developer: Daniel Santos
 visit_project: https://github.com/DanielSant0s/Enceladus
-hidden: true
+hidden: false
 hide_hero: true
 rtes_code: RTL001-004
 layout: rteslist
