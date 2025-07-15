@@ -7,7 +7,7 @@ visit_project: https://github.com/SlimPugGamer/ROMVersionChecker/
 hide_hero: true
 app_code: APL003-004
 layout: applist
-image: https://media.discordapp.net/attachments/654819194482851880/1393880653870927882/image.png?ex=6874c804&is=68737684&hm=b0cfc7f85e264b3528a539d98b7e1d0c6b1bb152fb11ae67662c477283975e18&=&format=webp&quality=lossless&width=959&height=537
+image: https://slimpuggamer.org/wp-content/uploads/2025/07/image-2.png
 version: RC1
 features:
     - label: Compatible across all models
