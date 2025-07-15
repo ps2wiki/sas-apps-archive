@@ -5,7 +5,7 @@ description: >-
      Small, Fast and Modular PS2 Device Emulator
 developer: Maximus32
 visit_project: https://github.com/rickgaiser/neutrino
-hidden: true
+hidden: false
 hide_hero: true
 rtes_code: RTL001-002
 layout: rteslist
