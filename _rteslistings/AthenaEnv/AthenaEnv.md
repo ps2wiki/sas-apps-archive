@@ -1,5 +1,5 @@
 ---
-title: Enceladus
+title: AthenaEnv
 subtitle: A complete Javascript environment for creating homebrew applications and games on PlayStation 2
 description: >- 
     A complete Javascript environment for creating homebrew applications and games on PlayStation 2
