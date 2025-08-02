@@ -16,7 +16,7 @@ features:
       icon: fa-file-upload
     - label: Fairly popular
       icon: fa-chart-line
-download: https://cdn.discordapp.com/attachments/1367171512246861905/1393317766567690250/DST_PADTEST.psu?ex=68740d4a&is=6872bbca&hm=0d0b394cef34b2228220bec128cec877ef182c84de898ad79dc51e9862e51d10&
+download: https://github.com/ps2wiki/SAS-Apps-Repo/raw/refs/heads/main/upstream/type_app/dst/PADTEST/DST_PADTEST.psu
 rating: 5
 ---
 
