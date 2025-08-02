@@ -9,7 +9,7 @@ hidden: false
 hide_hero: true
 rtes_code: RTL001-002
 layout: rteslist
-image: https://pbs.twimg.com/media/GWga4uEW8AAZhD9.png
+image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhtY-a0SPwN95lEfT4M6lYEMHM6BsOaCGsrA&s
 version: v1.3.1
 features:
     - label: Compatible across all models
