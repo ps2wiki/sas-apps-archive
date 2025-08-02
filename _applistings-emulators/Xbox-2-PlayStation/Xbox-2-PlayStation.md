@@ -23,11 +23,11 @@ rating: 01042024
 
 #1
 name_download_1: 8MB MC Patched
-download_1: https://github.com/ps2wiki/sas-apps-archive/blob/upstream/_applistings-emulators/Xbox-2-PlayStation/8MBMCP/download-8MBMCP.html
+download_1: https://ps2wiki.github.io/sas-apps-archive/applistings-emulators/Xbox-2-PlayStation/8MBMCP/download-8MBMCP.html
 
 #2
 name_download_2: ⍟ Full Release
-download_2: https://github.com/ps2wiki/sas-apps-archive/blob/upstream/_applistings-emulators/Xbox-2-PlayStation/FR/download-FR.html
+download_2: https://ps2wiki.github.io/sas-apps-archive/applistings-emulators/Xbox-2-PlayStation/FR/download-FR.html
 ---
 
 X2P is an Xbox emulator for the PlayStation 2. It was developed in secrecy, with consistent updates over the last 15 years. The GUI is adapted from Open PS2 Loader Beta 1.2.0 1996, but at its core, it's an emulator. Running Xbox games on a PS2 might seem unthinkable, but here's how it's done.  
