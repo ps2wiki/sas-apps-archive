@@ -18,7 +18,7 @@ features:
       icon: fa-file-upload
     - label: Highly popular
       icon: fa-chart-line
-download: https://github.com/rickgaiser/neutrino/releases
+download: https://github.com/ps2wiki/SAS-Apps-Repo/raw/refs/heads/main/upstream/type_rte/Neutrino/NEUTRINO-Standalone.psu
 rating: 5
 ---
 
