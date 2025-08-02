@@ -16,7 +16,7 @@ features:
       icon: fa-file-upload
     - label: Fairly popular
       icon: fa-chart-line
-download: https://cdn.discordapp.com/attachments/1367171512246861905/1393317766190076035/DST_HDDTESTER.psu?ex=68740d4a&is=6872bbca&hm=b766f349de9357ffe6c7cf424c18db0170a38d5e1ad0e5d28ba01301b2122a47&
+download: https://github.com/ps2wiki/SAS-Apps-Repo/raw/refs/heads/main/upstream/type_app/dst/HDD-Tester/DST_HDDTESTER.psu
 rating: 5
 ---
 
