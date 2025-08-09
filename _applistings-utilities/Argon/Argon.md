@@ -16,7 +16,7 @@ features:
       icon: fa-file-upload
     - label: Fairly popular
       icon: fa-chart-line
-download: https://app.filen.io/#/d/8e64fcc8-9599-4a2d-9f4d-925f109f1de4#i88dCcGrv9gRBhwqLLlJe7oQjyLqpTgA
+download: https://github.com/ps2wiki/SAS-Apps-Repo/raw/refs/heads/main/upstream/type_app/utilities/Argon/APP_ARGON.psu
 rating: 5
 ---
 
