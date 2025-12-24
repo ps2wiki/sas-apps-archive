@@ -65,7 +65,12 @@
     </div></div></body>
     <style>
 body {
-    background-image: url("https://github.com/ps2wiki/sas-apps-archive/blob/upstream/assets/images/sas-apps-archive-bg.jpg?raw=true");
+    {% if site.ps2wiki_theme == 'xmas' %}
+        background-image: url('https://raw.githubusercontent.com/ps2wiki/ps2wiki.github.io/refs/heads/upstream/assets/xmas/xmas_bg.png');
+    {% else %}
+        background-image: url('https://github.com/ps2wiki/sas-apps-archive/blob/upstream/assets/images/sas-apps-archive-bg.jpg?raw=true');
+    {% endif %}
+        background-image: url("https://github.com/ps2wiki/sas-apps-archive/blob/upstream/assets/images/sas-apps-archive-bg.jpg?raw=true");
     background-position: no-repeat;
     background-size: cover; }
 </style>
