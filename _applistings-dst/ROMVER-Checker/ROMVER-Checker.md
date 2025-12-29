@@ -8,7 +8,7 @@ hide_hero: true
 app_code: APL003-004
 layout: applist
 image: https://slimpuggamer.org/wp-content/uploads/2025/07/image-2.png
-version: RC1
+version: RC2
 features:
     - label: Compatible across all models
       icon: fa-user-check
@@ -16,7 +16,7 @@ features:
       icon: fa-file-upload
     - label: Fairly popular
       icon: fa-chart-line
-download: https://github.com/SlimPugGamer/ROMVersionChecker/releases/download/RC1/SYS_ROMVERCHK.psu
+download: https://github.com/slimpuggamer/ROMVersionChecker/releases/download/RC2/DST_ROMVERCHK.psu
 rating: 5
 ---
 
