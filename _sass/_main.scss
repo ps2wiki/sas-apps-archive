@@ -19,6 +19,8 @@ $hero-darken: $dark !default;
 @import "block-list";
 @import "promo-page";
 
+@import "themes/default";
+@import "themes/xmas";
 .download_btn {
   font-size: 20px; 
   width: auto; 
@@ -72,46 +74,4 @@ $hero-darken: $dark !default;
 .footer_font_adjust {
   font-size: 0.7em;
   }
-}
-
-/* ----- cursor -----*/
-/* -- default -- */
-
-.superclass {
-  padding: 10px;
-  cursor: url(/assets/images/default-cursor.png), auto;
-  -webkit-animation: cursor 400ms infinite;
-  animation: cursor 400ms infinite;
-}
-
-@-webkit-keyframes cursor {
-  0% {cursor: url(/assets/images/default-cursor.png), auto;}
-  100% {cursor: url(/assets/images/default-cursor.png), auto;}
-} 
-
-@keyframes cursor {
-  0% {cursor: url(/assets/images/default-cursor.png), auto;}
-  100% {cursor: url(/assets/images/default-cursor.png), auto;}
-}
-/* -- xmas -- */
-.xmas .superclass {
-  cursor: url(/assets/xmas/cursor/cursor-0.png), auto;
-  -webkit-animation: cursor 1ms infinite;
-  animation: cursor 1ms infinite;
-}
-
-@-webkit-keyframes cursor {
-  0% {cursor: url(/assets/xmas/cursor/cursor-0.png), auto;}
-  25% {cursor: url(/assets/xmas/cursor/cursor-2.png), auto;}
-  50% {cursor: url(/assets/xmas/cursor/cursor-4.png), auto;}
-  75% {cursor: url(/assets/xmas/cursor/cursor-6.png), auto;}
-  100% {cursor: url(/assets/xmas/cursor/cursor-8.png), auto;}
-} 
-
-@keyframes cursor {
-  0% {cursor: url(/assets/xmas/cursor/cursor-0.png), auto;}
-  25% {cursor: url(/assets/xmas/cursor/cursor-2.png), auto;}
-  50% {cursor: url(/assets/xmas/cursor/cursor-4.png), auto;}
-  75% {cursor: url(/assets/xmas/cursor/cursor-6.png), auto;}
-  100% {cursor: url(/assets/xmas/cursor/cursor-8.png), auto;}
 }
